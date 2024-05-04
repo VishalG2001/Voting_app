@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout->"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/candidate4_count_text_view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/cardview_light_background"/>
+    <TextView
+        android:id="@+id/candidate10_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate 1: "
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/candidate20_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate 2: "
+        android:textSize="20sp"
+        android:layout_below="@id/candidate10_count_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/candidate30_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate 3: "
+        android:textSize="20sp"
+        android:layout_below="@id/candidate20_count_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/candidate40_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate 4: "
+        android:textSize="20sp"
+        android:layout_below="@id/candidate30_count_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+    android:id="@+id/candidate1_count_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Candidate 1: "
+    android:textSize="20sp"
+        android:layout_toEndOf="@id/candidate10_count_text_view"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/candidate2_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate 2: "
+        android:layout_toEndOf="@id/candidate20_count_text_view"
+        android:textSize="20sp"
+        android:layout_below="@id/candidate1_count_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/candidate3_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 "
+        android:layout_toEndOf="@id/candidate30_count_text_view"
+        android:textSize="20sp"
+        android:layout_below="@id/candidate2_count_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/candidate4_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 "
+        android:layout_toEndOf="@id/candidate40_count_text_view"
+        android:textSize="20sp"
+        android:layout_below="@id/candidate3_count_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Add more TextViews for other candidates as needed -->
+
+</RelativeLayout>
